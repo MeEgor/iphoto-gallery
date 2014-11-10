@@ -1,6 +1,6 @@
 # iphoto-gallery
 
-demo http://iphoto-plugin-demo.16mb.com/
+demo http://iphoto-plugin-demo.16mb.com/index.html
 
 This plugin creates iPhoto like gallery.
 
