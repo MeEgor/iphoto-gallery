@@ -1,0 +1,30 @@
+.my-iphoto-gallery{
+  overflow: hidden;
+  position: relative;
+  height: 192px;
+  width: 238px;
+  cursor: pointer;
+}
+
+.my-iphoto-gallery img{
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.my-iphoto-gallery img.step-now{
+  z-index: 1;
+}
+
+.owerlay.my-gallery-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  z-index: 3;
+  opacity: 0;
+}
